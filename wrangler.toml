@@ -1,0 +1,24 @@
+# Cloudflare Workers configuration for SEASONAL prototypes
+name = "seasonal-prototypes"
+main = "./.open-next/output/server.js"
+compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+# Environment variables (these will be set in Cloudflare dashboard or via wrangler secret)
+[env.production]
+name = "seasonal-prototypes"
+
+# Secrets to add later:
+# wrangler secret put GUESTY_BE_CLIENT_ID
+# wrangler secret put GUESTY_BE_CLIENT_SECRET  
+# wrangler secret put GUESTY_OPEN_CLIENT_ID
+# wrangler secret put GUESTY_OPEN_CLIENT_SECRET
+# wrangler secret put WEBFLOW_API_KEY
+
+# Optional: Custom domain
+# routes = [
+#   { pattern = "prototypes.seasonal.com/*", custom_domain = true }
+# ]
+
+[env.staging]
+name = "seasonal-prototypes-staging"
