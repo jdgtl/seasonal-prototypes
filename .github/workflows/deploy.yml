@@ -34,4 +34,3 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: seasonal-prototypes
           directory: dist
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
