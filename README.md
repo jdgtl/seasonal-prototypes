@@ -1,5 +1,7 @@
 # SEASONAL - UI/UX Prototypes
 
+**Project Overview:** UI/UX design prototypes for the SEASONAL short-term rental platform, exploring three distinct design concepts that balance Scandinavian minimalism with luxury urban aesthetics. This is a client project for J/DGTL that will eventually replace the current stayseasonal.com website.
+
 Three distinct design concepts exploring Minimal Scandinavian + Luxury Urban aesthetics for the SEASONAL short-term rental platform.
 
 ## 🎨 Design Concepts
